@@ -1,13 +1,22 @@
 <html>
 
 <head>
-  <title>Express</title>
+  <title>Chat Trivia</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Chat Trivia</h2>
+    </div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Escribe tu mensaje aquí..."/>
+      <button id="send-button">Enviar</button>
+    </div>
+  </div>
+  <script src="./javascripts/script.js"></script>
 </body>
 
 </html>
